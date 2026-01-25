@@ -1,38 +1,32 @@
-/* Custom styles for Archers Tek */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 70px;
+  font-family: "Segoe UI", sans-serif;
 }
 
-.banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/banner.jpg');
-    background-size: cover;
-    background-position: center;
+/* Hero Section */
+.hero-section {
+  height: 90vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("https://images.unsplash.com/photo-1523240795612-9a054b0db644");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
 }
 
-.about-us, .contact-form {
-    background-color: #f8f9fa;
+/* Common Section */
+.section {
+  padding: 60px 0;
 }
 
-.card {
-    transition: transform 0.3s;
-    border: none;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+/* Contact */
+.contact-section {
+  padding: 80px 0;
+  background-color: #f8f9fa;
 }
 
-.card:hover {
-    transform: translateY(-5px);
-}
-
-.navbar {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.btn-primary {
-    background-color: #0d6efd;
-    border-color: #0d6efd;
-}
-
-.btn-primary:hover {
-    background-color: #0b5ed7;
-    border-color: #0a58ca;
+/* Footer */
+.footer {
+  padding: 15px 0;
 }
